@@ -8,5 +8,5 @@ export const messages = {
   uz,
 }
 
-export const defaultLocale = "ru"
+export const defaultLocale = "en"
 export const availableLocales = Object.keys(messages)
