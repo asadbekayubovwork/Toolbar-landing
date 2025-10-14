@@ -3,6 +3,8 @@ import { RouterLink, useRoute } from "vue-router"
 import { ref, onMounted, onUnmounted } from "vue"
 import CHeaderDropdown from "./CHeaderDropdown.vue"
 import CLanguageSwitcher from "./CLanguageSwitcher.vue"
+import Menu from "@/shared/assets/icons/menu.svg"
+import Logo from "@/shared/assets/svg/dark-logo.svg"
 
 const route = useRoute()
 const isScrolled = ref(false)
@@ -56,14 +58,14 @@ onUnmounted(() => {
     }"
   >
     <div class="container">
-      <div class="py-6">
+      <div class="py-3 sm:py-6">
         <div class="flex items-center justify-between">
           <!-- Logo -->
           <RouterLink to="/">
-            <img src="@/shared/assets/svg/dark-logo.svg" alt="logo" />
+            <Logo class="h-8 md:h-10" />
           </RouterLink>
           <!-- Navigation Links -->
-          <nav class="flex gap-8 items-center">
+          <nav class="lg:flex hidden gap-8 items-center">
             <RouterLink
               to="/"
               class="text-white font-normal hover:text-[#737373] transition-200"
@@ -89,7 +91,7 @@ onUnmounted(() => {
             </RouterLink>
           </nav>
           <!-- Header Actions -->
-          <div class="flex gap-8 items-center">
+          <div class="lg:flex hidden gap-8 items-center">
             <CLanguageSwitcher />
             <a
               href="https://space.toolbar-ai.com/"
@@ -100,6 +102,9 @@ onUnmounted(() => {
               {{ $t("header.login") }}
             </a>
           </div>
+          <button class="lg:hidden">
+            <Menu />
+          </button>
         </div>
       </div>
     </div>

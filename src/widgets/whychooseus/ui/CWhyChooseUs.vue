@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="hero h-screen p-[100px]">
-    <h2 class="text-4xl font-bold text-white text-center">
+  <section class="hero h-screen sm:p-[100px] p-[40px]">
+    <h2 class="text-2xl sm:text-4xl font-bold text-white text-center">
       {{ $t("whyChooseUs.title") }}
     </h2>
   </section>
