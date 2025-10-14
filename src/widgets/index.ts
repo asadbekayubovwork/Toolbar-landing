@@ -1,0 +1,5 @@
+export { default as CTable } from "./Table/ui/CTable.vue"
+export { CHeader } from "./header"
+export { CFooter } from "./footer"
+export { CHero } from "./hero"
+export { WhyChooseUs } from "./whychooseus"
