@@ -20,7 +20,26 @@
     "getStarted": "Boshlash"
   },
   "whyChooseUs": {
-    "title": "Nega Toolbar AI-ni tanlash kerak"
+    "title": "Nega Toolbar AI-ni tanlash kerak",
+    "titlePart1": "Nega",
+    "titlePart2": "Toolbar AI-ni tanlash kerak",
+    "subtitle": "Biz kompaniyalar va foydalanuvchilarga o'z tili va ehtiyojlarini tushunadigan vositalar yordamida tezroq va samaraliroq ishlashda yordam beramiz.",
+    "card1": {
+      "title": "Mahalliy AI ekspertizasi",
+      "description": "Bizning platformamiz o'zbek tili va mintaqaviy kontekst uchun moslashtirilgan bo'lib, ma'lumotlar bilan aniq va tabiiy ishlashni ta'minlaydi."
+    },
+    "card2": {
+      "title": "Uzluksiz samaradorlik",
+      "description": "Intellektual agentlar va integratsiyalar kundalik vazifalarni avtomatlashtirishga va ish jarayonlarini tezlashtirishga yordam beradi."
+    },
+    "card3": {
+      "title": "Kengaytiriladigan yechimlar",
+      "description": "Yakka foydalanuvchilardan to katta kompaniyalargacha — biz sizning biznesingiz bilan birga o'sadigan yechimlarni taklif etamiz."
+    },
+    "card4": {
+      "title": "Ishonchli va xavfsiz",
+      "description": "Foydalanuvchi ma'lumotlari barcha darajalarda himoyalangan va platforma zamonaviy xavfsizlik standartlari hisobga olingan holda qurilgan."
+    }
   },
   "footer": {
     "about": "Biz haqimizda",
@@ -115,6 +134,19 @@
     "demandPrediction": "Talabni bashorat qilish",
     "riskAssessment": "Xavfni baholash",
     "anomalyDetection": "Anomaliyalarni aniqlash"
+  },
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "subtitle": "Bizning do'stona jamoamiz sizdan eshitishni xohlaydi.",
+    "fullName": "To'liq ism",
+    "fullNamePlaceholder": "To'liq ism",
+    "email": "Elektron pochta",
+    "emailPlaceholder": "Elektron pochta",
+    "phoneNumber": "Telefon raqami",
+    "phoneNumberPlaceholder": "To'liq ism",
+    "message": "Xabar",
+    "messagePlaceholder": "Xabar",
+    "send": "Yuborish"
   },
   "error": {
     "404": "404",

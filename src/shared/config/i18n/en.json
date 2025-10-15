@@ -20,7 +20,26 @@
     "getStarted": "Get started"
   },
   "whyChooseUs": {
-    "title": "Why Choose Toolbar AI"
+    "title": "Why Choose Toolbar AI",
+    "titlePart1": "Why Choose",
+    "titlePart2": "Toolbar AI",
+    "subtitle": "We help companies and users work faster and more efficiently with tools that understand their language and needs.",
+    "card1": {
+      "title": "Localized AI Expertise",
+      "description": "Our platform is tailored for the Uzbek language and regional context, ensuring accuracy and natural data interaction."
+    },
+    "card2": {
+      "title": "Seamless Productivity",
+      "description": "Intelligent agents and integrations help automate daily tasks and speed up workflows."
+    },
+    "card3": {
+      "title": "Scalable Solutions",
+      "description": "From individual users to large companies — we offer solutions that grow with your business."
+    },
+    "card4": {
+      "title": "Reliable & Secure",
+      "description": "User data is protected at all levels, and the platform is built with modern security standards in mind."
+    }
   },
   "footer": {
     "about": "About",
@@ -115,6 +134,19 @@
     "demandPrediction": "Demand prediction",
     "riskAssessment": "Risk assessment",
     "anomalyDetection": "Anomaly detection"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Our friendly team would love to hear from you.",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Full Name",
+    "email": "Email",
+    "emailPlaceholder": "Email",
+    "phoneNumber": "Phone Number",
+    "phoneNumberPlaceholder": "Full Name",
+    "message": "Message",
+    "messagePlaceholder": "Message",
+    "send": "Send"
   },
   "error": {
     "404": "404",
