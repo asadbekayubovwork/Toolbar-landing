@@ -10,7 +10,9 @@
     "agents": "Agentlar",
     "models": "Modellar",
     "agentsDescription": "AI-agentlar",
-    "modelsDescription": "Mashina o'rganish modellari"
+    "modelsDescription": "Mashina o'rganish modellari",
+    "company": "Kompaniya",
+    "blogs": "Bloglar"
   },
   "hero": {
     "title": "O'zbek tili uchun yangi avlod AI platformasi",
@@ -49,9 +51,9 @@
     "aboutUs": "Biz haqimizda",
     "developers": "Dasturchilar",
     "contact": "Aloqa",
-    "contactEmail": "Email: info@myapp.com",
+    "contactEmail": "Email",
     "contactPhone": "Telefon: +1 (555) 123-4567",
-    "copyright": "© {{year}} MyApp. Barcha huquqlar himoyalangan."
+    "copyright": "MyApp. Barcha huquqlar himoyalangan."
   },
   "aboutUs": {
     "title": "Biz haqimizda",

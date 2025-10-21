@@ -42,6 +42,14 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("./products/PModels.vue"),
   },
   {
+    path: "/contact-us",
+    name: "Contact",
+    meta: {
+      layout: "DefaultLayout",
+    },
+    component: () => import("./PContact.vue"),
+  },
+  {
     path: "/:pathMatch(.*)*",
     name: "NotFound",
     meta: {

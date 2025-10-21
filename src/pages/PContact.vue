@@ -21,30 +21,14 @@ const handleSubmit = () => {
     <div class="contact-container">
       <!-- Left Side - Form -->
       <div class="form-wrapper">
-        <h2
-          class="title text-3xl sm:text-5xl font-bold text-white mb-4"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-delay="200"
-        >
+        <h2 class="title text-3xl sm:text-5xl font-bold text-white mb-4">
           {{ $t("contact.title") }}
         </h2>
-        <p
-          class="subtitle text-gray-300 mb-8"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-delay="400"
-        >
+        <p class="subtitle text-gray-300 mb-8">
           {{ $t("contact.subtitle") }}
         </p>
 
-        <form
-          @submit.prevent="handleSubmit"
-          class="contact-form"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-delay="600"
-        >
+        <form @submit.prevent="handleSubmit" class="contact-form">
           <!-- Full Name -->
           <div class="form-group">
             <label class="form-label text-white text-sm mb-2 block">
@@ -109,12 +93,7 @@ const handleSubmit = () => {
       </div>
 
       <!-- Right Side - Image -->
-      <div
-        class="image-wrapper"
-        data-aos="fade-left"
-        data-aos-duration="1000"
-        data-aos-delay="400"
-      >
+      <div class="image-wrapper">
         <div class="image-container">
           <img
             src="@/shared/assets/png/contact-img.jpg"

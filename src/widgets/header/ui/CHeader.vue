@@ -6,6 +6,14 @@ import CLanguageSwitcher from "./CLanguageSwitcher.vue"
 import Menu from "@/shared/assets/icons/menu.svg"
 import Logo from "@/shared/assets/svg/dark-logo.svg"
 
+interface Props {
+  hideBackground?: boolean
+}
+
+withDefaults(defineProps<Props>(), {
+  hideBackground: false,
+})
+
 const route = useRoute()
 const isScrolled = ref(false)
 const isMobileMenuOpen = ref(false)
@@ -14,9 +22,9 @@ const isProductsDropdownOpen = ref(false)
 const navigation = [
   { name: "Home", path: "/", i18nKey: "header.home" },
   { name: "About us", path: "/about", i18nKey: "header.aboutUs" },
-  { name: "Developers", path: "/developers", i18nKey: "header.developers" },
-  { name: "Pricing", path: "/pricing", i18nKey: "header.pricing" },
-  { name: "Contact us", path: "/contact-us", i18nKey: "header.contactUs" },
+  // { name: "Developers", path: "/developers", i18nKey: "header.developers" },
+  // { name: "Pricing", path: "/pricing", i18nKey: "header.pricing" },
+  // { name: "Contact us", path: "/contact-us", i18nKey: "header.contactUs" },
 ]
 
 const productsDropdown = [
@@ -33,9 +41,39 @@ const productsDropdown = [
     i18nKey: "header.models",
   },
 ]
+const companyDropdown = [
+  {
+    name: "Blogs",
+    path: "/blogs",
+    description: "Company blogs",
+    i18nKey: "header.blogs",
+  },
+  {
+    name: "Pricing",
+    path: "/pricing",
+    description: "Company pricing",
+    i18nKey: "header.pricing",
+  },
+  {
+    name: "Developers",
+    path: "/developers",
+    description: "Developers",
+    i18nKey: "header.developers",
+  },
+  {
+    name: "Contact us",
+    path: "/contact-us",
+    description: "Company contact us",
+    i18nKey: "header.contactUs",
+  },
+]
 
 const isProductsActive = () => {
   return route.path.startsWith("/products")
+}
+
+const isCompanyActive = () => {
+  return route.path.startsWith("/company")
 }
 
 const handleScroll = () => {
@@ -85,6 +123,7 @@ onUnmounted(() => {
     :class="{
       'header-scrolled bg-[#0e041f] bg-opacity-50 backdrop-blur-2xl':
         isScrolled,
+      'header-no-bg': hideBackground,
     }"
   >
     <div class="container">
@@ -119,6 +158,11 @@ onUnmounted(() => {
             >
               {{ $t(item.i18nKey) }}
             </RouterLink>
+            <CHeaderDropdown
+              :title="$t('header.company')"
+              :items="companyDropdown"
+              :is-active="isCompanyActive()"
+            />
           </nav>
           <!-- Header Actions -->
           <div class="lg:flex hidden gap-8 items-center">
@@ -284,6 +328,16 @@ onUnmounted(() => {
 
 .header-scrolled::before {
   opacity: 0;
+}
+
+.header-no-bg {
+  background: transparent !important;
+}
+
+.header-no-bg::before {
+  display: none !important;
+  opacity: 0 !important;
+  background: none !important;
 }
 
 /* Mobile Navigation Styles */

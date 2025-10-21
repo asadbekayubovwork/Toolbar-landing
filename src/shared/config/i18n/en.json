@@ -10,7 +10,9 @@
     "agents": "Agents",
     "models": "Models",
     "agentsDescription": "AI-powered agents",
-    "modelsDescription": "Machine learning models"
+    "modelsDescription": "Machine learning models",
+    "company": "Company",
+    "blogs": "Blogs"
   },
   "hero": {
     "title": "Next-Generation AI Platform for Uzbek",
@@ -49,9 +51,9 @@
     "aboutUs": "About Us",
     "developers": "Developers",
     "contact": "Contact",
-    "contactEmail": "Email: info@myapp.com",
+    "contactEmail": "Email",
     "contactPhone": "Phone: +1 (555) 123-4567",
-    "copyright": "© {{year}} MyApp. All rights reserved."
+    "copyright": "MyApp. All rights reserved."
   },
   "aboutUs": {
     "title": "About Us",

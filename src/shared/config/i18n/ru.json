@@ -10,7 +10,9 @@
     "agents": "Агенты",
     "models": "Модели",
     "agentsDescription": "ИИ-агенты",
-    "modelsDescription": "Модели машинного обучения"
+    "modelsDescription": "Модели машинного обучения",
+    "company": "Компания",
+    "blogs": "Блоги"
   },
   "hero": {
     "title": "Платформа ИИ нового поколения для узбекского",
@@ -49,9 +51,9 @@
     "aboutUs": "О нас",
     "developers": "Разработчики",
     "contact": "Контакты",
-    "contactEmail": "Email: info@myapp.com",
+    "contactEmail": "Email",
     "contactPhone": "Телефон: +1 (555) 123-4567",
-    "copyright": "© {{year}} MyApp. Все права защищены."
+    "copyright": "MyApp. Все права защищены."
   },
   "aboutUs": {
     "title": "О нас",

@@ -11,14 +11,15 @@ const goHome = () => {
 </script>
 
 <template>
-  <div class="min-h-screen custom-class flex items-center px-4 py-16">
+  <div class="min-h-screen custom-class">
     <CHeader
-      class="absolute top-0 left-0 right-0 z-50 bg-transparent bg-none header-class"
+      :hide-background="true"
+      class="absolute top-0 left-0 right-0 z-50"
     />
-    <div class="container">
+    <div class="container h-[calc(100vh-88px)] flex flex-col justify-center">
       <!-- 404 Number -->
       <h1
-        class="text-[150px] md:text-[200px] font-extrabold leading-none bg-gradient-to-r from-primary-60 to-primary-80 bg-clip-text text-transparent"
+        class="text-[150px] md:text-[200px] font-extrabold text-white leading-none"
       >
         {{ $t("error.404") }}
       </h1>
@@ -52,9 +53,5 @@ const goHome = () => {
   background-color: #000000;
   background-size: contain;
   background-position: right center;
-}
-
-.header-class::before {
-  background: none !important;
 }
 </style>

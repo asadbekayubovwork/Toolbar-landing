@@ -6,6 +6,9 @@
       <div class="max-w-[1055px] w-full mx-auto mb-[90px] sm:mb-[60px]">
         <h1
           class="font-bold text-[32px] sm:text-[56px] leading-[100%] mb-4 title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
         >
           <span class="text-white">{{ $t("hero.title") }}</span>
           <br v-if="$t('hero.titleHighlight')" />
@@ -18,12 +21,18 @@
 
         <p
           class="text-base sm:text-xl text-[#A3A3A3] font-normal mb-8 leading-[140%]"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
         >
           {{ $t("hero.subtitle") }}
         </p>
 
         <div
           class="flex flex-col sm:flex-row gap-4 justify-center items-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="600"
         >
           <a
             href="https://space.toolbar-ai.com/"
@@ -48,6 +57,9 @@
         src="@/shared/assets/png/hero-img.png"
         alt="hero"
         class="relative z-10"
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-delay="800"
       />
     </div>
   </section>
