@@ -39,7 +39,7 @@ const goHome = () => {
           :label="$t('error.goBackHome')"
           variant="primary"
           size="large"
-          class="w-[411px] h-12 font-semibold"
+          class="sm:w-[411px] w-full h-12 font-semibold"
           @click="goHome"
         />
       </div>

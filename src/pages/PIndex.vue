@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { CHero, WhyChooseUs } from "@/widgets"
+import { CHero, WhyChooseUs, CCallToAction } from "@/widgets"
 import CContact from "@/widgets/contact/ui/CContact.vue"
 </script>
 
@@ -8,6 +8,7 @@ import CContact from "@/widgets/contact/ui/CContact.vue"
     <!-- Hero Section -->
     <CHero />
     <WhyChooseUs />
+    <CCallToAction />
     <CContact />
   </div>
 </template>

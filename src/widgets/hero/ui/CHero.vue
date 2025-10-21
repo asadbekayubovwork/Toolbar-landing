@@ -57,7 +57,7 @@
         src="@/shared/assets/png/hero-img.png"
         alt="hero"
         class="relative z-10"
-        data-aos="zoom-in"
+        data-aos="fade-up"
         data-aos-duration="1200"
         data-aos-delay="800"
       />

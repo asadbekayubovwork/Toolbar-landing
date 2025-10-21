@@ -155,5 +155,11 @@
     "pageNotFound": "Page Not Found",
     "message": "Oops! The page you're looking for doesn't exist. It might have been moved or deleted.",
     "goBackHome": "Go Back Home"
+  },
+  "callToAction": {
+    "title": "Sign up for our newsletter",
+    "subtitle": "Be the first to know about releases and industry news and insights.",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe"
   }
 }

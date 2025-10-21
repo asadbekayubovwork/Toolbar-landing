@@ -2,7 +2,7 @@
 
 <template>
   <section
-    class="relative sm:py-[100px] py-[60px] bg-[#0e041f] overflow-hidden"
+    class="container relative sm:py-[100px] py-[60px] bg-[#0e041f] overflow-hidden"
   >
     <div>
       <h2
@@ -25,7 +25,7 @@
         {{ $t("whyChooseUs.subtitle") }}
       </p>
 
-      <div class="container mx-auto px-4">
+      <div class="mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <!-- Card 1: Localized AI Expertise -->
           <div

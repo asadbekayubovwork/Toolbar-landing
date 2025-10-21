@@ -155,5 +155,11 @@
     "pageNotFound": "Sahifa topilmadi",
     "message": "Voy! Siz qidirayotgan sahifa mavjud emas. U ko'chirilgan yoki o'chirilgan bo'lishi mumkin.",
     "goBackHome": "Bosh sahifaga qaytish"
+  },
+  "callToAction": {
+    "title": "Bizning yangiliklar uchun obuna bo'ling",
+    "subtitle": "Yangi relizlar, sanoat yangiliklari va tushunchalar haqida birinchilardan bo'lib bilib oling.",
+    "emailPlaceholder": "Emailingizni kiriting",
+    "subscribe": "Obuna bo'lish"
   }
 }

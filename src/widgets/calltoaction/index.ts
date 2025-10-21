@@ -1,0 +1,1 @@
+export { default as CCallToAction } from "./ui/CCallToAction.vue"
