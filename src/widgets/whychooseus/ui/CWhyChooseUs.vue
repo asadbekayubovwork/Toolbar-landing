@@ -2,9 +2,9 @@
 
 <template>
   <section
-    class="container relative sm:py-[100px] py-[60px] bg-[#0e041f] overflow-hidden"
+    class="whyChooseUsSection relative sm:py-[100px] py-[60px] bg-[#0e041f] overflow-hidden"
   >
-    <div>
+    <div class="container">
       <h2
         class="text-3xl sm:text-5xl font-bold text-white text-center mb-4 leading-[140%]"
         data-aos="fade-up"
@@ -105,5 +105,27 @@
   background:
     linear-gradient(0deg, rgba(39, 40, 41, 0.7), rgba(39, 40, 41, 0.7)),
     linear-gradient(119.3deg, rgba(0, 0, 0, 0) 23.34%, #6633ee 96.36%);
+}
+
+.whyChooseUsSection {
+  position: relative;
+  background: #0e041f;
+  overflow: hidden;
+}
+
+.whyChooseUsSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("@/shared/assets/png/blur-bg.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.05;
+  z-index: 0;
+  pointer-events: none;
 }
 </style>

@@ -53,7 +53,14 @@
     "contact": "Aloqa",
     "contactEmail": "Email",
     "contactPhone": "Telefon: +1 (555) 123-4567",
-    "copyright": "MyApp. Barcha huquqlar himoyalangan."
+    "copyright": "Toolbar AI",
+    "phone": "+998 (90) 123 45 67",
+    "email": "ToolbarAI@info.com",
+    "agents": "Agentlar",
+    "models": "Modellar",
+    "pricing": "Narxlar",
+    "contactUs": "Biz bilan bog'lanish",
+    "privacy": "Maxfiylik"
   },
   "aboutUs": {
     "title": "Biz haqimizda",
@@ -161,5 +168,32 @@
     "subtitle": "Yangi relizlar, sanoat yangiliklari va tushunchalar haqida birinchilardan bo'lib bilib oling.",
     "emailPlaceholder": "Emailingizni kiriting",
     "subscribe": "Obuna bo'lish"
+  },
+  "aiAgents": {
+    "titlePart1": "Bizning",
+    "titlePart2": "AI Agentlarimiz bilan tanishing",
+    "subtitle": "Kundalik vazifalarni avtomatlashtirish va ish jarayonini tezlashtirish uchun mo'ljallangan kuchli AI agentlarini kashf eting.",
+    "card1": {
+      "title": "O'zbek tilida matn yaratish",
+      "description": "Maqolalar, chatbotlar va biznes vazifalar uchun o'zbek tilida tabiiy, insonga o'xshash matn yarating."
+    },
+    "card2": {
+      "title": "O'zbek tilida matn yaratish",
+      "description": "Maqolalar, chatbotlar va biznes vazifalar uchun o'zbek tilida tabiiy, insonga o'xshash matn yarating."
+    },
+    "card3": {
+      "title": "O'zbek tilida matn yaratish",
+      "description": "Maqolalar, chatbotlar va biznes vazifalar uchun o'zbek tilida tabiiy, insonga o'xshash matn yarating."
+    },
+    "card4": {
+      "title": "O'zbek tilida matn yaratish",
+      "description": "Maqolalar, chatbotlar va biznes vazifalar uchun o'zbek tilida tabiiy, insonga o'xshash matn yarating."
+    },
+    "card5": {
+      "title": "O'zbek tilida matn yaratish",
+      "description": "Maqolalar, chatbotlar va biznes vazifalar uchun o'zbek tilida tabiiy, insonga o'xshash matn yarating."
+    },
+    "explore": "O'rganish",
+    "seeMore": "Ko'proq ko'rish"
   }
 }

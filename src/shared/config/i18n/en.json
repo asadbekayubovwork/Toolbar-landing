@@ -48,12 +48,19 @@
     "aboutText": "Building amazing web experiences with modern technologies.",
     "quickLinks": "Quick Links",
     "home": "Home",
-    "aboutUs": "About Us",
+    "aboutUs": "About us",
     "developers": "Developers",
     "contact": "Contact",
     "contactEmail": "Email",
     "contactPhone": "Phone: +1 (555) 123-4567",
-    "copyright": "MyApp. All rights reserved."
+    "copyright": "Toolbar AI",
+    "phone": "+998 (90) 123 45 67",
+    "email": "ToolbarAI@info.com",
+    "agents": "Agents",
+    "models": "Models",
+    "pricing": "Pricing",
+    "contactUs": "Contact us",
+    "privacy": "Privacy"
   },
   "aboutUs": {
     "title": "About Us",
@@ -161,5 +168,32 @@
     "subtitle": "Be the first to know about releases and industry news and insights.",
     "emailPlaceholder": "Enter your email",
     "subscribe": "Subscribe"
+  },
+  "aiAgents": {
+    "titlePart1": "Meet Our",
+    "titlePart2": "AI Agents",
+    "subtitle": "Discover powerful AI agents designed to automate routine tasks and accelerate your workflow.",
+    "card1": {
+      "title": "Uzbek Text Generation",
+      "description": "Create natural, human-like text in Uzbek for articles, chatbots, and business tasks."
+    },
+    "card2": {
+      "title": "Uzbek Text Generation",
+      "description": "Create natural, human-like text in Uzbek for articles, chatbots, and business tasks."
+    },
+    "card3": {
+      "title": "Uzbek Text Generation",
+      "description": "Create natural, human-like text in Uzbek for articles, chatbots, and business tasks."
+    },
+    "card4": {
+      "title": "Uzbek Text Generation",
+      "description": "Create natural, human-like text in Uzbek for articles, chatbots, and business tasks."
+    },
+    "card5": {
+      "title": "Uzbek Text Generation",
+      "description": "Create natural, human-like text in Uzbek for articles, chatbots, and business tasks."
+    },
+    "explore": "Explore",
+    "seeMore": "See more"
   }
 }
