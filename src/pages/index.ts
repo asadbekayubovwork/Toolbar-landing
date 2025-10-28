@@ -57,6 +57,22 @@ const routes: Array<RouteRecordRaw> = [
     },
     component: () => import("./PError.vue"),
   },
+  {
+    path: "/blogs",
+    name: "Blog",
+    meta: {
+      layout: "DefaultLayout",
+    },
+    component: () => import("./PBlogs.vue"),
+  },
+  // {
+  //   path: "/blog/:id",
+  //   name: "BlogPost",
+  //   meta: {
+  //     layout: "DefaultLayout",
+  //   },
+  //   component: () => import("./PBlogsPost.vue"),
+  // },
 ]
 
 export { routes }

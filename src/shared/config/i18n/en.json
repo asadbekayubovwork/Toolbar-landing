@@ -195,12 +195,62 @@
     },
     "explore": "Explore",
     "seeMore": "See more"
-  }
-  ,
+  },
+  "aiModels": {
+    "titlePart1": "Powerful",
+    "titlePart2": "AI Models",
+    "subtitle": "Harness cutting-edge AI models built to understand and process Uzbek language at scale.",
+    "card1": {
+      "title": "Uzbek Text Generation",
+      "description": "Create natural, human-like text in Uzbek for articles, chatbots, and business tasks."
+    },
+    "card2": {
+      "title": "Uzbek Text Generation",
+      "description": "Create natural, human-like text in Uzbek for articles, chatbots, and business tasks."
+    },
+    "card3": {
+      "title": "Uzbek Text Generation",
+      "description": "Create natural, human-like text in Uzbek for articles, chatbots, and business tasks."
+    },
+    "card4": {
+      "title": "Uzbek Text Generation",
+      "description": "Create natural, human-like text in Uzbek for articles, chatbots, and business tasks."
+    },
+    "try": "Try",
+    "seeMore": "See more"
+  },
   "landingIntro": {
     "title": "Start Building Smarter Workflows Today",
     "subtitle": "Transform the way you work with AI tools designed for Uzbek users and businesses. Get started in minutes — no coding required.",
     "tryDemo": "Try demo",
     "getStarted": "Get started"
+  },
+  "blog": {
+    "title": "The latest writings from our team",
+    "subtitle": "The latest industry news, interviews, technologies, and resources.",
+    "card1": {
+      "title": "Migrating to Linear 101",
+      "description": "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here's how to get started."
+    },
+    "card2": {
+      "title": "Building your API stack",
+      "description": "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them."
+    },
+    "card3": {
+      "title": "Bill Walsh leadership lessons",
+      "description": "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?"
+    },
+    "card4": {
+      "title": "PM mental models",
+      "description": "Mental models are simple expressions of complex processes or relationships."
+    },
+    "card5": {
+      "title": "What is wireframing?",
+      "description": "Introduction to Wireframing and its Principles. Learn from the best in the industry."
+    },
+    "card6": {
+      "title": "How collaboration makes us better designers",
+      "description": "Collaboration can make our teams stronger, and our individual designs better."
+    }
   }
 }

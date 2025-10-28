@@ -1,5 +1,13 @@
 <script setup lang="ts">
-import { CHero, WhyChooseUs, CAiAgents, CCallToAction, CLandingIntro } from "@/widgets"
+import {
+  CHero,
+  WhyChooseUs,
+  CAiAgents,
+  CCallToAction,
+  CLandingIntro,
+  CAiModels,
+} from "@/widgets"
+import CBlogCards from "@/widgets/blogcards/ui/CBlogCards.vue"
 import CContact from "@/widgets/contact/ui/CContact.vue"
 </script>
 
@@ -10,6 +18,8 @@ import CContact from "@/widgets/contact/ui/CContact.vue"
     <WhyChooseUs />
     <CLandingIntro />
     <CAiAgents />
+    <CAiModels />
+    <CBlogCards />
     <CCallToAction />
     <CContact />
   </div>

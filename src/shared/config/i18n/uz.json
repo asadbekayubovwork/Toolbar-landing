@@ -195,12 +195,62 @@
     },
     "explore": "O'rganish",
     "seeMore": "Ko'proq ko'rish"
-  }
-  ,
+  },
+  "aiModels": {
+    "titlePart1": "Kuchli",
+    "titlePart2": "AI Modellari",
+    "subtitle": "O'zbek tilini tushunish va qayta ishlash uchun qurilgan ilg'or AI modellaridan foydalaning.",
+    "card1": {
+      "title": "O'zbek tilida matn yaratish",
+      "description": "Maqolalar, chatbotlar va biznes vazifalar uchun o'zbek tilida tabiiy, insonga o'xshash matn yarating."
+    },
+    "card2": {
+      "title": "O'zbek tilida matn yaratish",
+      "description": "Maqolalar, chatbotlar va biznes vazifalar uchun o'zbek tilida tabiiy, insonga o'xshash matn yarating."
+    },
+    "card3": {
+      "title": "O'zbek tilida matn yaratish",
+      "description": "Maqolalar, chatbotlar va biznes vazifalar uchun o'zbek tilida tabiiy, insonga o'xshash matn yarating."
+    },
+    "card4": {
+      "title": "O'zbek tilida matn yaratish",
+      "description": "Maqolalar, chatbotlar va biznes vazifalar uchun o'zbek tilida tabiiy, insonga o'xshash matn yarating."
+    },
+    "try": "Sinab ko'ring",
+    "seeMore": "Ko'proq ko'rish"
+  },
   "landingIntro": {
     "title": "Bugunoq aqlli ish jarayonlarini qurishni boshlang",
     "subtitle": "O'zbek foydalanuvchilari va biznesi uchun mo'ljallangan AI vositalari bilan ish uslubingizni o'zgartiring. Bir necha daqiqada boshlang — kod yozish shart emas.",
     "tryDemo": "Demoni sinab ko'ring",
     "getStarted": "Boshlash"
+  },
+  "blog": {
+    "title": "Jamoamizning so'nggi yozuvlari",
+    "subtitle": "So'nggi sanoat yangiliklari, intervyular, texnologiyalar va resurslar.",
+    "card1": {
+      "title": "Linear'ga o'tish 101",
+      "description": "Linear dasturiy ta'minot loyihalarini, sprintlarni, vazifalarni va xatolarni kuzatishni soddalashtiradi. Qanday boshlash kerak."
+    },
+    "card2": {
+      "title": "API stackingizni qurish",
+      "description": "RESTful APIlarning o'sishi ularni yaratish, sinov qilish va boshqarish vositalarining o'sishi bilan birga keldi."
+    },
+    "card3": {
+      "title": "Bill Ualshdan liderlik saboqlari",
+      "description": "2-14 jamoani 3 marta Superkubok g'olibi Dinastiyaga aylantirish sirlarini bilishni xohlaysizmi?"
+    },
+    "card4": {
+      "title": "PM aqliy modellari",
+      "description": "Aqliy modellar murakkab jarayonlar yoki munosabatlarning oddiy ifodalaridir."
+    },
+    "card5": {
+      "title": "Wireframing nima?",
+      "description": "Wireframing va uning tamoyillari bilan tanishish. Sanoatdagi eng yaxshilardan o'rganing."
+    },
+    "card6": {
+      "title": "Hamkorlik bizni yaxshiroq dizaynerga aylantiradi",
+      "description": "Hamkorlik jamoalarimizni kuchliroq va individual loyihalarimizni yaxshiroq qilishi mumkin."
+    }
   }
 }
