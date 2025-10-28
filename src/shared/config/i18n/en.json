@@ -196,4 +196,11 @@
     "explore": "Explore",
     "seeMore": "See more"
   }
+  ,
+  "landingIntro": {
+    "title": "Start Building Smarter Workflows Today",
+    "subtitle": "Transform the way you work with AI tools designed for Uzbek users and businesses. Get started in minutes — no coding required.",
+    "tryDemo": "Try demo",
+    "getStarted": "Get started"
+  }
 }
