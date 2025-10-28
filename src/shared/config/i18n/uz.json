@@ -196,4 +196,11 @@
     "explore": "O'rganish",
     "seeMore": "Ko'proq ko'rish"
   }
+  ,
+  "landingIntro": {
+    "title": "Bugunoq aqlli ish jarayonlarini qurishni boshlang",
+    "subtitle": "O'zbek foydalanuvchilari va biznesi uchun mo'ljallangan AI vositalari bilan ish uslubingizni o'zgartiring. Bir necha daqiqada boshlang — kod yozish shart emas.",
+    "tryDemo": "Demoni sinab ko'ring",
+    "getStarted": "Boshlash"
+  }
 }
