@@ -252,5 +252,81 @@
       "title": "Hamkorlik bizni yaxshiroq dizaynerga aylantiradi",
       "description": "Hamkorlik jamoalarimizni kuchliroq va individual loyihalarimizni yaxshiroq qilishi mumkin."
     }
+  },
+  "aboutUsCards": {
+    "title": "Bizni nima harakatlantiradi",
+    "subtitle": "Sizning tilingiz va madaniyatingizni tushunadigan AI yaratish",
+    "accessibility": {
+      "title": "Foydalanish qulayligi",
+      "description": "Eng zamonaviy AI texnologiyalarini hammaga, o'z tilida va madaniy kontekstida taqdim etish."
+    },
+    "innovation": {
+      "title": "Innovatsiya",
+      "description": "Modellarni doimiy yaxshilash, yangi texnologiyalarni o'rganish va real foydalanish holatlarini kengaytirish."
+    },
+    "trust": {
+      "title": "Ishonch va Xavfsizlik",
+      "description": "Foydalanuvchi ma'lumotlarini himoya qiladigan ishonchli, maxfiylikka asoslangan AI vositalarini yaratish."
+    },
+    "impact": {
+      "title": "Ta'sir",
+      "description": "Avtomatlashtirish, tushunchalar va mahalliy tilda AI orqali jismoniy shaxslar va bizneslarni ko'proq narsaga erishishga qodir qilish."
+    },
+    "scalability": {
+      "title": "Kengayish va Sifat",
+      "description": "Har qanday miqyosda — startaplardan tortib korxonalargacha — izchil, yuqori sifatli natijalar beradigan AI tizimlarini loyihalash."
+    },
+    "collaboration": {
+      "title": "Hamkorlik",
+      "description": "Haqiqiy muammolarni hal qiladigan yechimlarni yaratish uchun dasturchilar, bizneslar va jamiyat bilan yaqindan ishlash."
+    }
+  },
+  "aboutUsStory": {
+    "title": "Biz endigina boshladik",
+    "subtitle": "Toolbar AI'da biz nafaqat innovatsiyalarga ergashadigan, balki uni sodda, mahalliy va hamma uchun ta'sirli qiladigan vositalarni yaratmoqdamiz.",
+    "paragraph1": "Toolbar AI oddiy, ammo kuchli g'oyadan tug'ildi: texnologiya sizni tushunishi kerak, aksincha emas.",
+    "paragraph2": "AI vositalari butun dunyo bo'ylab tez rivojlanayotgan bir paytda, biz bo'shliqni ko'rdik — ko'pgina yechimlar o'zbek tili yoki mahalliy biznes ehtiyojlari uchun yaratilmagan. Bu innovatsiyalarga kirishni qiyinlashtirdi va bizning mintaqamizda raqamli transformatsiyani sekinlashtirdi.",
+    "paragraph3": "Biz Toolbar AI'ni buni o'zgartirish uchun boshladik. Bizning vazifamiz aniq edi: ilg'or AI'ni ochiq, amaliy va madaniy jihatdan mos qilish.",
+    "paragraph4": "Muhandislar va dizaynerlarning kichik jamoasidan biz o'zbek tilida gapiradigan, mahalliy ish jarayonlarini qo'llab-quvvatlaydigan va bizneslarni tezroq kengaytirishga yordam beradigan AI agentlari va modellarini yaratadigan kompaniyaga aylandi.",
+    "paragraph5": "Bugun Toolbar AI mahsulotdan ko'proq narsa - bu odamlar va texnologiya o'rtasidagi ko'prik bo'lib, jamoalar, ijodkorlar va tashkilotlarga AI'ning to'liq salohiyatini ochishga yordam beradi."
+  },
+  "aboutUsPage": {
+    "heroTitle": "O'zbek tilida AI kelajagini rivojlantirish",
+    "heroSubtitle": "Biz o'zbek tilida so'zlashadigan dunyoga ilg'or vositalar va intellektual agentlarni taqdim etadigan yangi avlod AI platformasini yaratmoqdamiz — odamlarga aqlli va tezroq ishlashga yordam beramiz."
+  },
+  "pricing": {
+    "title": "Sodda va Shaffof Narxlar",
+    "subtitle": "Ehtiyojlaringizga mos rejalashtirishni tanlang.",
+    "pageTitle": "Hamma uchun sodda va shaffof narxlar",
+    "pageSubtitle": "Ehtiyojlaringizga mos rejani tanlang — yakka shaxslardan tortib o'sib borayotgan biznesgacha.",
+    "joinWaitlist": "Kutish ro'yxatiga qo'shilish",
+    "basic": {
+      "name": "Narxlar",
+      "price": "$29/oy",
+      "feature1": "Kalit so'zlarni optimallashtirish",
+      "feature2": "Avtomatlashtirilgan meta teglar",
+      "feature3": "SEO monitoring",
+      "feature4": "Oylik hisobotlar"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$79/oy",
+      "feature1": "Kalit so'zlarni optimallashtirish",
+      "feature2": "Avtomatlashtirilgan meta teglar",
+      "feature3": "SEO monitoring",
+      "feature4": "Oylik hisobotlar",
+      "feature5": "Havolalarni optimallashtirish"
+    },
+    "business": {
+      "name": "Biznes",
+      "price": "$149/oy",
+      "feature1": "Kalit so'zlarni optimallashtirish",
+      "feature2": "Avtomatlashtirilgan meta teglar",
+      "feature3": "SEO monitoring",
+      "feature4": "Oylik hisobotlar",
+      "feature5": "Havolalarni optimallashtirish",
+      "feature6": "Ko'p foydalanuvchi kirishi",
+      "feature7": "API integratsiyasi"
+    }
   }
 }

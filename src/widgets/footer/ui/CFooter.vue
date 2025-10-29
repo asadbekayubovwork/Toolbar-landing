@@ -19,10 +19,10 @@ import Logo from "@/shared/assets/svg/light-logo.svg"
 
           <!-- Contact Information -->
           <div class="space-y-1 text-white mt-8 sm:mt-4 mb-8 sm:mb-10">
-            <p class="text-sm leading-[140%] font-normal">
+            <p class="text-base leading-[140%] font-normal">
               {{ $t("footer.phone") }}
             </p>
-            <p class="text-sm leading-[140%] font-normal">
+            <p class="text-base leading-[140%] font-normal">
               {{ $t("footer.email") }}
             </p>
           </div>
@@ -110,31 +110,31 @@ import Logo from "@/shared/assets/svg/light-logo.svg"
           <div class="space-y-1">
             <RouterLink
               to="/"
-              class="block text-gray-300 hover:text-white text-sm transition-colors duration-300"
+              class="block text-gray-300 hover:text-white text-lg transition-colors duration-300"
             >
               {{ $t("footer.home") }}
             </RouterLink>
             <RouterLink
               to="/products/agents"
-              class="block text-gray-300 hover:text-white text-sm transition-colors duration-300"
+              class="block text-gray-300 hover:text-white text-lg transition-colors duration-300"
             >
               {{ $t("footer.agents") }}
             </RouterLink>
             <RouterLink
               to="/products/models"
-              class="block text-gray-300 hover:text-white text-sm transition-colors duration-300"
+              class="block text-gray-300 hover:text-white text-lg transition-colors duration-300"
             >
               {{ $t("footer.models") }}
             </RouterLink>
             <RouterLink
               to="/developers"
-              class="block text-gray-300 hover:text-white text-sm transition-colors duration-300"
+              class="block text-gray-300 hover:text-white text-lg transition-colors duration-300"
             >
               {{ $t("footer.developers") }}
             </RouterLink>
             <RouterLink
               to="/pricing"
-              class="block text-gray-300 hover:text-white text-sm transition-colors duration-300"
+              class="block text-gray-300 hover:text-white text-lg transition-colors duration-300"
             >
               {{ $t("footer.pricing") }}
             </RouterLink>
@@ -144,13 +144,13 @@ import Logo from "@/shared/assets/svg/light-logo.svg"
           <div class="space-y-1">
             <RouterLink
               to="/contact"
-              class="block text-gray-300 hover:text-white text-sm transition-colors duration-300"
+              class="block text-gray-300 hover:text-white text-lg transition-colors duration-300"
             >
               {{ $t("footer.contactUs") }}
             </RouterLink>
             <RouterLink
               to="/about"
-              class="block text-gray-300 hover:text-white text-sm transition-colors duration-300"
+              class="block text-gray-300 hover:text-white text-lg transition-colors duration-300"
             >
               {{ $t("footer.aboutUs") }}
             </RouterLink>
@@ -160,12 +160,12 @@ import Logo from "@/shared/assets/svg/light-logo.svg"
 
       <!-- Bottom Section -->
       <div class="flex flex-row justify-between items-center gap-4 mt-10">
-        <p class="text-[#8F8E8A] text-xs">
+        <p class="text-[#8F8E8A] text-base">
           © {{ currentYear }} — {{ $t("footer.copyright") }}
         </p>
         <RouterLink
           to="/privacy"
-          class="text-[#8F8E8A] hover:text-white text-xs transition-colors duration-300"
+          class="text-[#8F8E8A] hover:text-white text-base transition-colors duration-300"
         >
           {{ $t("footer.privacy") }}
         </RouterLink>

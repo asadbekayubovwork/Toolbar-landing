@@ -252,5 +252,81 @@
       "title": "How collaboration makes us better designers",
       "description": "Collaboration can make our teams stronger, and our individual designs better."
     }
+  },
+  "aboutUsCards": {
+    "title": "What Drives Us",
+    "subtitle": "Building AI that understands your language and culture",
+    "accessibility": {
+      "title": "Accessibility",
+      "description": "Bringing cutting-edge AI to everyone, in their own language and cultural context."
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Continuously improving models, exploring new technologies, and expanding real-world use cases."
+    },
+    "trust": {
+      "title": "Trust & Security",
+      "description": "Building reliable, privacy-first AI tools that safeguard user data."
+    },
+    "impact": {
+      "title": "Impact",
+      "description": "Empowering individuals and businesses to achieve more through automation, insight, and local-language AI."
+    },
+    "scalability": {
+      "title": "Scalability & Quality",
+      "description": "Designing AI systems that deliver consistent, high-quality results at any scale — from startups to enterprises."
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "Working closely with developers, businesses, and the community to create solutions that truly solve real problems."
+    }
+  },
+  "aboutUsStory": {
+    "title": "We're just getting started",
+    "subtitle": "At Toolbar AI, we're building tools that not only keep up with innovation but also make it simple, local, and impactful for everyone.",
+    "paragraph1": "Toolbar AI was born from a simple but powerful idea: technology should understand you, not the other way around.",
+    "paragraph2": "As AI tools were rapidly evolving around the world, we saw a gap — most solutions weren't built for the Uzbek language or the needs of local businesses. This made innovation harder to access and slowed down digital transformation in our region.",
+    "paragraph3": "We started Toolbar AI to change that. Our mission was clear: make cutting-edge AI accessible, practical, and culturally relevant.",
+    "paragraph4": "From a small team of engineers and designers, we've grown into a company creating AI agents and models that speak Uzbek, support local workflows, and empower businesses to scale faster.",
+    "paragraph5": "Today, Toolbar AI is more than a product — it's a bridge between people and technology, helping teams, creators, and organizations unlock the full potential of AI."
+  },
+  "aboutUsPage": {
+    "heroTitle": "Empowering the Future of AI in the Uzbek Language",
+    "heroSubtitle": "We are building the next-generation AI platform that brings advanced tools and intelligent agents to the Uzbek-speaking world — helping people work smarter and faster."
+  },
+  "pricing": {
+    "title": "Simple and Transparent Pricing",
+    "subtitle": "Choose the plan that fits your needs.",
+    "pageTitle": "Simple, Transparent Pricing for Everyone",
+    "pageSubtitle": "Choose a plan that fits your needs — from individuals to growing businesses.",
+    "joinWaitlist": "Join waitlist",
+    "basic": {
+      "name": "Pricing",
+      "price": "$29/mo",
+      "feature1": "Keyword optimization",
+      "feature2": "Automated meta tags",
+      "feature3": "SEO monitoring",
+      "feature4": "Monthly reports"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$79/mo",
+      "feature1": "Keyword optimization",
+      "feature2": "Automated meta tags",
+      "feature3": "SEO monitoring",
+      "feature4": "Monthly reports",
+      "feature5": "Link optimization"
+    },
+    "business": {
+      "name": "Business",
+      "price": "$149/mo",
+      "feature1": "Keyword optimization",
+      "feature2": "Automated meta tags",
+      "feature3": "SEO monitoring",
+      "feature4": "Monthly reports",
+      "feature5": "Link optimization",
+      "feature6": "Multi-user access",
+      "feature7": "API integration"
+    }
   }
 }

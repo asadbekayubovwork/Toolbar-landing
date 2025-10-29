@@ -73,6 +73,14 @@ const routes: Array<RouteRecordRaw> = [
   //   },
   //   component: () => import("./PBlogsPost.vue"),
   // },
+  {
+    path: "/pricing",
+    name: "Pricing",
+    meta: {
+      layout: "DefaultLayout",
+    },
+    component: () => import("./PPricing.vue"),
+  },
 ]
 
 export { routes }

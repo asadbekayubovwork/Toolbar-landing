@@ -157,21 +157,23 @@ const blogs: BlogCardData[] = [
         </p>
       </div>
     </section>
-    <div class="container sm:py-[100px] py-[60px]">
-      <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
-      >
-        <BlogCard
-          v-for="(card, index) in blogs"
-          :key="card.id"
-          :image="card.image"
-          :author="card.author"
-          :date="card.date"
-          :title="card.title"
-          :description="card.description"
-          :link="card.link"
-          :aos-delay="600 + index * 100"
-        />
+    <div class="blogs-bg-pattern">
+      <div class="container sm:py-[100px] py-[60px]">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
+        >
+          <BlogCard
+            v-for="(card, index) in blogs"
+            :key="card.id"
+            :image="card.image"
+            :author="card.author"
+            :date="card.date"
+            :title="card.title"
+            :description="card.description"
+            :link="card.link"
+            :aos-delay="600 + index * 100"
+          />
+        </div>
       </div>
     </div>
     <CCallToAction />
@@ -231,5 +233,24 @@ const blogs: BlogCardData[] = [
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.blogs-bg-pattern {
+  position: relative;
+  background: #0e041f;
+  overflow: hidden;
+}
+.blogs-bg-pattern::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("@/shared/assets/png/blur-bg.png") no-repeat center center;
+  background-size: cover;
+  opacity: 0.05;
+  z-index: 0;
+  pointer-events: none;
 }
 </style>

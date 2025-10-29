@@ -9,6 +9,7 @@ import {
 } from "@/widgets"
 import CBlogCards from "@/widgets/blogcards/ui/CBlogCards.vue"
 import CContact from "@/widgets/contact/ui/CContact.vue"
+import CPricingList from "@/widgets/pricing/ui/CPricingList.vue"
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import CContact from "@/widgets/contact/ui/CContact.vue"
     <CAiAgents />
     <CAiModels />
     <CBlogCards />
+    <CPricingList />
     <CCallToAction />
     <CContact />
   </div>
