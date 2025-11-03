@@ -1,5 +1,9 @@
 <template>
-  <div class="relative border border-secondary-20 rounded-xl">
+  <div
+    class="relative border border-secondary-20 rounded-xl"
+    data-aos="fade-up"
+    data-aos-duration="1000"
+  >
     <table class="w-full">
       <thead class="text-xs text-secondary-60">
         <tr class="border-b border-secondary-20 text-left">
@@ -11,9 +15,12 @@
       </thead>
       <tbody class="text-secondary-100">
         <tr
-          v-for="item in data"
+          v-for="(item, index) in data"
           :key="item.id"
           class="bg-white border-b border-gray-200"
+          :data-aos="'fade-up'"
+          :data-aos-duration="'800'"
+          :data-aos-delay="String(50 * (index + 1))"
         >
           <td scope="row" class="text-center py-4 font-medium">1</td>
           <td

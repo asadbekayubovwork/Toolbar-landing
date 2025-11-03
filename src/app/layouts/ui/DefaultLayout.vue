@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { CHeader, CFooter } from "@/widgets"
+import { CHeader, CFooter, CCallToAgent } from "@/widgets"
 </script>
 
 <template>
@@ -8,6 +8,7 @@ import { CHeader, CFooter } from "@/widgets"
     <main class="flex-1">
       <slot />
     </main>
+    <CCallToAgent />
     <CFooter />
   </div>
 </template>

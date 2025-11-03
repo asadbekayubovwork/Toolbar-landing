@@ -20,21 +20,38 @@ const goHome = () => {
       <!-- 404 Number -->
       <h1
         class="text-[150px] md:text-[200px] font-extrabold text-white leading-none"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         {{ $t("error.404") }}
       </h1>
 
       <!-- Error Message -->
-      <h2 class="text-3xl md:text-4xl font-bold text-white mt-8 mb-6">
+      <h2
+        class="text-3xl md:text-4xl font-bold text-white mt-8 mb-6"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+      >
         {{ $t("error.pageNotFound") }}
       </h2>
 
-      <p class="text-lg text-secondary-60 mb-12 max-w-[418px]">
+      <p
+        class="text-lg text-secondary-60 mb-12 max-w-[418px]"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+      >
         {{ $t("error.message") }}
       </p>
 
       <!-- Action Buttons -->
-      <div class="flex flex-col sm:flex-row gap-4 items-center">
+      <div
+        class="flex flex-col sm:flex-row gap-4 items-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="400"
+      >
         <CButton
           :label="$t('error.goBackHome')"
           variant="primary"

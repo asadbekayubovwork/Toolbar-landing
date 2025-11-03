@@ -48,20 +48,37 @@ const developers = [
 <template>
   <div class="py-12 bg-gray-50">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <h1 class="text-4xl font-bold text-gray-900 mb-4">
+      <div
+        class="text-center mb-12"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <h1
+          class="text-4xl font-bold text-gray-900 mb-4"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
           {{ $t("developers.title") }}
         </h1>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        <p
+          class="text-xl text-gray-600 max-w-3xl mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
           {{ $t("developers.subtitle") }}
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div
-          v-for="developer in developers"
+          v-for="(developer, index) in developers"
           :key="developer.name"
           class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow"
+          :data-aos="'fade-up'"
+          :data-aos-duration="'1000'"
+          :data-aos-delay="String(100 * (index + 1))"
         >
           <div class="text-center mb-4">
             <div class="text-6xl mb-4">{{ developer.avatar }}</div>
@@ -92,15 +109,33 @@ const developers = [
         </div>
       </div>
 
-      <div class="mt-16 bg-white p-8 rounded-lg shadow-md text-center">
-        <h2 class="text-2xl font-bold text-gray-900 mb-4">
+      <div
+        class="mt-16 bg-white p-8 rounded-lg shadow-md text-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+      >
+        <h2
+          class="text-2xl font-bold text-gray-900 mb-4"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
           {{ $t("developers.joinTeam") }}
         </h2>
-        <p class="text-gray-600 mb-6">
+        <p
+          class="text-gray-600 mb-6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
           {{ $t("developers.joinTeamText") }}
         </p>
         <button
           class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
         >
           {{ $t("developers.viewPositions") }}
         </button>

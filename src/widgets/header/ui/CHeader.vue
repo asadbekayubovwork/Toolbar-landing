@@ -54,12 +54,12 @@ const companyDropdown = [
     description: "Company pricing",
     i18nKey: "header.pricing",
   },
-  {
-    name: "Developers",
-    path: "/developers",
-    description: "Developers",
-    i18nKey: "header.developers",
-  },
+  // {
+  //   name: "Developers",
+  //   path: "/developers",
+  //   description: "Developers",
+  //   i18nKey: "header.developers",
+  // },
   {
     name: "Contact us",
     path: "/contact-us",

@@ -169,6 +169,10 @@
     "emailPlaceholder": "Emailingizni kiriting",
     "subscribe": "Obuna bo'lish"
   },
+  "agentsPage": {
+    "heroTitle": "Siz uchun ishlaydigan AI Agentlar",
+    "heroSubtitle": "Oldindan tayyorlangan agentlar kundalik vazifalarni avtomatlashtirish, mijozlar bilan muloqotni boshqarish va qo'lda ishlash soatlarini tejashga yordam beradi."
+  },
   "aiAgents": {
     "titlePart1": "Bizning",
     "titlePart2": "AI Agentlarimiz bilan tanishing",
@@ -195,6 +199,10 @@
     },
     "explore": "O'rganish",
     "seeMore": "Ko'proq ko'rish"
+  },
+  "modelsPage": {
+    "heroTitle": "Aql bilan tilni tushunish uchun AI Modellari",
+    "heroSubtitle": "Bizning modellarimiz o'zbek tilini yuqori aniqlik bilan tushunish, yaratish va tahlil qilish uchun mo'ljallangan. Ularni ilovalaringizga integratsiya qiling yoki to'g'ridan-to'g'ri Toolbar AI'da ishlating."
   },
   "aiModels": {
     "titlePart1": "Kuchli",

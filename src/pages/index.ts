@@ -65,14 +65,14 @@ const routes: Array<RouteRecordRaw> = [
     },
     component: () => import("./PBlogs.vue"),
   },
-  // {
-  //   path: "/blog/:id",
-  //   name: "BlogPost",
-  //   meta: {
-  //     layout: "DefaultLayout",
-  //   },
-  //   component: () => import("./PBlogsPost.vue"),
-  // },
+  {
+    path: "/blog/:id",
+    name: "BlogDetail",
+    meta: {
+      layout: "DefaultLayout",
+    },
+    component: () => import("./PBlogDetail.vue"),
+  },
   {
     path: "/pricing",
     name: "Pricing",

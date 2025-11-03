@@ -13,74 +13,15 @@ interface BlogCardData {
 }
 const blogs: BlogCardData[] = [
   {
-    id: 2,
+    id: 1,
     image:
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=350&fit=crop",
-    author: "Lana Steiner",
-    date: "18 Jan 2024",
-    title: "blog.card2.title",
-    description: "blog.card2.description",
-    link: "#",
-  },
-  {
-    id: 3,
-    image:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=350&fit=crop",
-    author: "Alec Whitten",
-    date: "17 Jan 2024",
-    title: "blog.card3.title",
-    description: "blog.card3.description",
-    link: "#",
-  },
-  {
-    id: 4,
-    image:
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&h=350&fit=crop",
-    author: "Demi Wilkinson",
-    date: "16 Jan 2024",
-    title: "blog.card4.title",
-    description: "blog.card4.description",
-    link: "#",
-  },
-  {
-    id: 5,
-    image:
-      "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=500&h=350&fit=crop",
-    author: "Candice Wu",
-    date: "15 Jan 2024",
-    title: "blog.card5.title",
-    description: "blog.card5.description",
-    link: "#",
-  },
-  {
-    id: 6,
-    image:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=500&h=350&fit=crop",
-    author: "Natali Craig",
-    date: "14 Jan 2024",
-    title: "blog.card6.title",
-    description: "blog.card6.description",
-    link: "#",
-  },
-  {
-    id: 5,
-    image:
-      "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=500&h=350&fit=crop",
-    author: "Candice Wu",
-    date: "15 Jan 2024",
-    title: "blog.card5.title",
-    description: "blog.card5.description",
-    link: "#",
-  },
-  {
-    id: 6,
-    image:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=500&h=350&fit=crop",
-    author: "Natali Craig",
-    date: "14 Jan 2024",
-    title: "blog.card6.title",
-    description: "blog.card6.description",
-    link: "#",
+      "https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=500&h=350&fit=crop",
+    author: "Olivia Rhye",
+    date: "20 Jan 2024",
+    title: "UX review presentations",
+    description:
+      "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    link: "/blog/1",
   },
   {
     id: 2,
@@ -90,7 +31,7 @@ const blogs: BlogCardData[] = [
     date: "18 Jan 2024",
     title: "blog.card2.title",
     description: "blog.card2.description",
-    link: "#",
+    link: "/blog/2",
   },
   {
     id: 3,
@@ -100,7 +41,7 @@ const blogs: BlogCardData[] = [
     date: "17 Jan 2024",
     title: "blog.card3.title",
     description: "blog.card3.description",
-    link: "#",
+    link: "/blog/3",
   },
   {
     id: 4,
@@ -110,7 +51,7 @@ const blogs: BlogCardData[] = [
     date: "16 Jan 2024",
     title: "blog.card4.title",
     description: "blog.card4.description",
-    link: "#",
+    link: "/blog/4",
   },
   {
     id: 5,
@@ -120,7 +61,7 @@ const blogs: BlogCardData[] = [
     date: "15 Jan 2024",
     title: "blog.card5.title",
     description: "blog.card5.description",
-    link: "#",
+    link: "/blog/5",
   },
   {
     id: 6,
@@ -130,7 +71,7 @@ const blogs: BlogCardData[] = [
     date: "14 Jan 2024",
     title: "blog.card6.title",
     description: "blog.card6.description",
-    link: "#",
+    link: "/blog/6",
   },
 ]
 </script>

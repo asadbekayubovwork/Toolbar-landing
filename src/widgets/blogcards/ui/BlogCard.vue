@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { RouterLink } from "vue-router"
+
 interface Props {
   image: string
   author: string
@@ -15,8 +17,8 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <a
-    :href="link"
+  <RouterLink
+    :to="link"
     class="group block"
     data-aos="fade-up"
     data-aos-duration="1000"
@@ -68,5 +70,5 @@ withDefaults(defineProps<Props>(), {
         </p>
       </div>
     </article>
-  </a>
+  </RouterLink>
 </template>

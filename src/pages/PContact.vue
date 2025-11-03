@@ -20,11 +20,21 @@ const handleSubmit = () => {
   >
     <div class="contact-container">
       <!-- Left Side - Form -->
-      <div class="form-wrapper">
-        <h2 class="title text-3xl sm:text-5xl font-bold text-white mb-4">
+      <div class="form-wrapper" data-aos="fade-right" data-aos-duration="1000">
+        <h2
+          class="title text-3xl sm:text-5xl font-bold text-white mb-4"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
           {{ $t("contact.title") }}
         </h2>
-        <p class="subtitle text-gray-300 mb-8">
+        <p
+          class="subtitle text-gray-300 mb-8"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
           {{ $t("contact.subtitle") }}
         </p>
 
@@ -93,7 +103,7 @@ const handleSubmit = () => {
       </div>
 
       <!-- Right Side - Image -->
-      <div class="image-wrapper">
+      <div class="image-wrapper" data-aos="fade-left" data-aos-duration="1000">
         <div class="image-container">
           <img
             src="@/shared/assets/png/contact-img.jpg"

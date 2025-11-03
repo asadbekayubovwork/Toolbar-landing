@@ -169,6 +169,10 @@
     "emailPlaceholder": "Enter your email",
     "subscribe": "Subscribe"
   },
+  "agentsPage": {
+    "heroTitle": "AI Agents That Work for You",
+    "heroSubtitle": "Pre-built agents automate daily tasks, handle customer interactions, and save hours of manual work."
+  },
   "aiAgents": {
     "titlePart1": "Meet Our",
     "titlePart2": "AI Agents",
@@ -195,6 +199,10 @@
     },
     "explore": "Explore",
     "seeMore": "See more"
+  },
+  "modelsPage": {
+    "heroTitle": "AI Models for Smarter Language Understanding",
+    "heroSubtitle": "Our models are designed to understand, generate, and analyze Uzbek language with high accuracy. Integrate them into your apps or use them directly in Toolbar AI."
   },
   "aiModels": {
     "titlePart1": "Powerful",
