@@ -1,5 +1,60 @@
 <script setup lang="ts">
+import { useHead } from "@vueuse/head"
 import CCallToAction from "@/widgets/calltoaction/ui/CCallToAction.vue"
+
+// SEO Meta Tags
+useHead({
+  title: "Pricing Plans - Toolbar AI | Affordable AI Toolbar Subscription",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Explore Toolbar AI pricing plans. Choose from flexible subscription options for our AI-powered browser toolbar. Get access to advanced AI features, intelligent automation, and productivity tools at competitive prices. Find the perfect plan for individuals, teams, and enterprises. Better value than Google Toolbar alternatives.",
+    },
+    {
+      name: "keywords",
+      content:
+        "toolbar AI pricing, AI toolbar cost, pricing plans, subscription plans, AI toolbar price, google toolbar alternative pricing, browser toolbar pricing, AI productivity pricing, toolbar subscription, AI browser extension pricing, intelligent toolbar cost, toolbar AI plans, affordable AI toolbar, AI automation pricing, browser AI pricing, toolbar AI cost, AI productivity tools pricing, smart toolbar pricing, AI assistant pricing, enterprise toolbar pricing, team toolbar pricing, individual toolbar pricing, AI toolbar subscription, browser automation pricing, AI tools pricing, toolbar pricing plans, AI browser pricing, productivity toolbar cost, smart AI pricing",
+    },
+    // Open Graph Tags
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://toolbar-ai.com/pricing" },
+    {
+      property: "og:title",
+      content: "Toolbar AI Pricing - Affordable AI-Powered Toolbar Plans",
+    },
+    {
+      property: "og:description",
+      content:
+        "Flexible pricing plans for Toolbar AI. Access advanced AI features, automation, and productivity tools at competitive rates.",
+    },
+    {
+      property: "og:image",
+      content: "https://toolbar-ai.com/og-image-pricing.jpg",
+    },
+    { property: "og:site_name", content: "Toolbar AI" },
+    // Twitter Card Tags
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:site", content: "@toolbarai" },
+    {
+      name: "twitter:title",
+      content: "Pricing Plans - Affordable AI Toolbar | Toolbar AI",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Find the perfect plan for your needs. Flexible pricing for individuals, teams, and enterprises.",
+    },
+    {
+      name: "twitter:image",
+      content: "https://toolbar-ai.com/twitter-card-pricing.jpg",
+    },
+    // Additional SEO Tags
+    { name: "robots", content: "index, follow" },
+    { name: "author", content: "Toolbar AI Team" },
+  ],
+  link: [{ rel: "canonical", href: "https://toolbar-ai.com/pricing" }],
+})
 </script>
 
 <template>

@@ -1,6 +1,58 @@
 <script setup lang="ts">
+import { useHead } from "@vueuse/head"
 import BlogCard from "@/widgets/blogcards/ui/BlogCard.vue"
 import CCallToAction from "@/widgets/calltoaction/ui/CCallToAction.vue"
+
+// SEO Meta Tags
+useHead({
+  title: "Blog - Toolbar AI | AI Toolbar News, Tips & Industry Insights",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Stay updated with Toolbar AI blog. Discover the latest news, tips, tutorials, and insights about AI-powered browser toolbars, intelligent automation, productivity hacks, and AI technology trends. Learn how to maximize your browsing efficiency with our Google Toolbar alternative and AI tools.",
+    },
+    {
+      name: "keywords",
+      content:
+        "toolbar AI blog, AI toolbar news, browser toolbar blog, AI productivity blog, toolbar tips, AI automation blog, intelligent toolbar insights, browser AI blog, toolbar AI articles, AI technology blog, productivity tips, browser automation blog, AI toolbar tutorials, smart toolbar blog, AI browser news, toolbar AI updates, AI productivity insights, browser tools blog, toolbar AI guides, AI automation tips, intelligent browsing blog, toolbar technology blog, AI tools blog, browser productivity blog, toolbar AI news, AI browser insights, smart automation blog, toolbar how-to, AI productivity articles",
+    },
+    // Open Graph Tags
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://toolbar-ai.com/blogs" },
+    {
+      property: "og:title",
+      content: "Toolbar AI Blog - Latest News, Tips & Insights",
+    },
+    {
+      property: "og:description",
+      content:
+        "Explore our blog for the latest updates, tutorials, and insights on AI-powered browser toolbars and productivity tools.",
+    },
+    { property: "og:image", content: "https://toolbar-ai.com/og-image-blog.jpg" },
+    { property: "og:site_name", content: "Toolbar AI" },
+    // Twitter Card Tags
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:site", content: "@toolbarai" },
+    {
+      name: "twitter:title",
+      content: "Toolbar AI Blog - News, Tips & Insights",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Stay updated with the latest in AI toolbar technology, productivity tips, and automation insights.",
+    },
+    {
+      name: "twitter:image",
+      content: "https://toolbar-ai.com/twitter-card-blog.jpg",
+    },
+    // Additional SEO Tags
+    { name: "robots", content: "index, follow" },
+    { name: "author", content: "Toolbar AI Team" },
+  ],
+  link: [{ rel: "canonical", href: "https://toolbar-ai.com/blogs" }],
+})
 
 interface BlogCardData {
   id: number

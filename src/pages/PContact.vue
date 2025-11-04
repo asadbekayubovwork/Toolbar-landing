@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue"
+import { useHead } from "@vueuse/head"
 
 const formData = ref({
   fullName: "",
@@ -12,6 +13,54 @@ const handleSubmit = () => {
   console.log("Form submitted:", formData.value)
   // Add your form submission logic here
 }
+
+// SEO Meta Tags
+useHead({
+  title: "Contact Us - Toolbar AI | Get in Touch with AI Toolbar Support",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Contact Toolbar AI team for support, inquiries, or partnership opportunities. Get help with our AI-powered browser toolbar, request demos, or learn more about our intelligent automation features. Our expert team is ready to assist you with any questions about our Google Toolbar alternative and AI productivity solutions.",
+    },
+    {
+      name: "keywords",
+      content:
+        "contact toolbar AI, AI toolbar support, toolbar AI contact, get in touch, customer support, AI toolbar help, toolbar AI inquiry, browser toolbar support, AI productivity support, toolbar AI team, contact us, AI toolbar contact form, toolbar support team, AI browser extension support, intelligent toolbar help, toolbar AI assistance, AI automation support, browser AI help, toolbar AI demo, contact toolbar team, AI toolbar inquiry, support contact, AI toolbar questions, toolbar customer service, AI browser support, toolbar AI email, contact AI team",
+    },
+    // Open Graph Tags
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://toolbar-ai.com/contact-us" },
+    {
+      property: "og:title",
+      content: "Contact Us - Toolbar AI Support & Inquiries",
+    },
+    {
+      property: "og:description",
+      content:
+        "Get in touch with Toolbar AI team. We're here to help with support, demos, and any questions about our AI-powered toolbar.",
+    },
+    { property: "og:image", content: "https://toolbar-ai.com/og-image.jpg" },
+    { property: "og:site_name", content: "Toolbar AI" },
+    // Twitter Card Tags
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:site", content: "@toolbarai" },
+    {
+      name: "twitter:title",
+      content: "Contact Toolbar AI - Support & Inquiries",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Reach out to our team for support, demos, or partnership opportunities. We're here to help!",
+    },
+    { name: "twitter:image", content: "https://toolbar-ai.com/twitter-card.jpg" },
+    // Additional SEO Tags
+    { name: "robots", content: "index, follow" },
+    { name: "author", content: "Toolbar AI Team" },
+  ],
+  link: [{ rel: "canonical", href: "https://toolbar-ai.com/contact-us" }],
+})
 </script>
 
 <template>

@@ -1,6 +1,58 @@
 <script setup lang="ts">
+import { useHead } from "@vueuse/head"
 import CCallToAction from "@/widgets/calltoaction/ui/CCallToAction.vue"
 import { ref } from "vue"
+
+// SEO Meta Tags
+useHead({
+  title: "AI Agents - Toolbar AI | Intelligent Browser Automation & AI Assistants",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Explore powerful AI Agents integrated in Toolbar AI. Automate your browsing tasks with intelligent AI assistants, smart automation agents, and context-aware AI helpers. Experience the next level of Google Toolbar with advanced AI agent technology for maximum productivity.",
+    },
+    {
+      name: "keywords",
+      content:
+        "AI agents, browser AI agents, toolbar AI agents, intelligent agents, automation agents, AI assistants, smart agents, AI browser automation, intelligent browser agents, AI task automation, autonomous agents, AI productivity agents, browser automation tools, AI workflow agents, intelligent automation, AI helper agents, smart browser assistants, AI-powered agents, machine learning agents, GPT agents, ChatGPT agents, AI agent toolbar, browser AI assistants, automated browsing agents, intelligent task agents, AI navigation agents, context-aware agents, AI search agents, smart automation tools, AI agent technology, browser AI automation, toolbar automation agents, AI productivity assistants, intelligent browsing agents",
+    },
+    // Open Graph Tags
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://toolbar-ai.com/products/agents" },
+    {
+      property: "og:title",
+      content: "AI Agents - Intelligent Browser Automation | Toolbar AI",
+    },
+    {
+      property: "og:description",
+      content:
+        "Discover AI-powered agents that automate your browsing tasks. Smart assistants integrated in the most advanced AI toolbar.",
+    },
+    { property: "og:image", content: "https://toolbar-ai.com/og-image-agents.jpg" },
+    { property: "og:site_name", content: "Toolbar AI" },
+    // Twitter Card Tags
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:site", content: "@toolbarai" },
+    {
+      name: "twitter:title",
+      content: "AI Agents - Smart Browser Automation | Toolbar AI",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Automate browsing with intelligent AI agents. Experience next-gen toolbar automation and AI assistants.",
+    },
+    {
+      name: "twitter:image",
+      content: "https://toolbar-ai.com/twitter-card-agents.jpg",
+    },
+    // Additional SEO Tags
+    { name: "robots", content: "index, follow" },
+    { name: "author", content: "Toolbar AI Team" },
+  ],
+  link: [{ rel: "canonical", href: "https://toolbar-ai.com/products/agents" }],
+})
 
 interface AgentCard {
   id: number

@@ -1,4 +1,54 @@
 <script setup lang="ts">
+import { useHead } from "@vueuse/head"
+
+// SEO Meta Tags
+useHead({
+  title: "Developers - Toolbar AI | Meet Our AI Toolbar Development Team",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Meet the talented developers and engineers behind Toolbar AI. Discover our team of AI specialists, software engineers, and designers building the most advanced AI-powered browser toolbar. Join our team and help create the future of intelligent web browsing and Google Toolbar alternatives.",
+    },
+    {
+      name: "keywords",
+      content:
+        "toolbar AI developers, AI toolbar team, software engineers, AI developers, browser toolbar developers, toolbar AI engineers, AI specialists, development team, AI technology team, toolbar developers, browser extension developers, AI engineering team, toolbar AI careers, developer jobs, AI jobs, browser AI developers, intelligent toolbar team, AI automation developers, toolbar technology team, software development team, AI programming team, browser tools developers, toolbar AI positions, AI developer careers, tech team",
+    },
+    // Open Graph Tags
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://toolbar-ai.com/developers" },
+    {
+      property: "og:title",
+      content: "Meet Our Developers - Toolbar AI Team",
+    },
+    {
+      property: "og:description",
+      content:
+        "Discover the talented team building the future of AI-powered browser toolbars. Join us in creating innovative AI solutions.",
+    },
+    { property: "og:image", content: "https://toolbar-ai.com/og-image.jpg" },
+    { property: "og:site_name", content: "Toolbar AI" },
+    // Twitter Card Tags
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:site", content: "@toolbarai" },
+    {
+      name: "twitter:title",
+      content: "Developers - Toolbar AI Team",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Meet our team of AI specialists and engineers. Join us in building the future of intelligent browsing.",
+    },
+    { name: "twitter:image", content: "https://toolbar-ai.com/twitter-card.jpg" },
+    // Additional SEO Tags
+    { name: "robots", content: "index, follow" },
+    { name: "author", content: "Toolbar AI Team" },
+  ],
+  link: [{ rel: "canonical", href: "https://toolbar-ai.com/developers" }],
+})
+
 const developers = [
   {
     name: "Alice Johnson",

@@ -1,4 +1,9 @@
 <script setup lang="ts">
+import { useHead } from "@vueuse/head"
+import { useRoute } from "vue-router"
+
+const route = useRoute()
+
 const blogData = {
   publishedDate: "20 Jan 2024",
   title: "UX review presentations",
@@ -20,6 +25,55 @@ const copyLink = () => {
   navigator.clipboard.writeText(url)
   // You can add a toast notification here
 }
+
+// SEO Meta Tags
+useHead({
+  title: `${blogData.title} - Toolbar AI Blog`,
+  meta: [
+    {
+      name: "description",
+      content: blogData.subtitle,
+    },
+    {
+      name: "keywords",
+      content:
+        `${blogData.tags.join(", ")}, toolbar AI, AI toolbar blog, browser toolbar article, AI productivity, intelligent toolbar, AI automation, browser AI`,
+    },
+    // Open Graph Tags
+    { property: "og:type", content: "article" },
+    { property: "og:url", content: `https://toolbar-ai.com/blog/${route.params.id}` },
+    {
+      property: "og:title",
+      content: blogData.title,
+    },
+    {
+      property: "og:description",
+      content: blogData.subtitle,
+    },
+    { property: "og:image", content: blogData.mainImage },
+    { property: "og:site_name", content: "Toolbar AI" },
+    { property: "article:published_time", content: blogData.publishedDate },
+    { property: "article:author", content: blogData.author.name },
+    { property: "article:tag", content: blogData.tags.join(", ") },
+    // Twitter Card Tags
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:site", content: "@toolbarai" },
+    {
+      name: "twitter:title",
+      content: blogData.title,
+    },
+    {
+      name: "twitter:description",
+      content: blogData.subtitle,
+    },
+    { name: "twitter:image", content: blogData.mainImage },
+    { name: "twitter:creator", content: blogData.author.name },
+    // Additional SEO Tags
+    { name: "robots", content: "index, follow" },
+    { name: "author", content: blogData.author.name },
+  ],
+  link: [{ rel: "canonical", href: `https://toolbar-ai.com/blog/${route.params.id}` }],
+})
 </script>
 
 <template>

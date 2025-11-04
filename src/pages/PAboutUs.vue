@@ -1,9 +1,58 @@
 <script setup lang="ts">
 import { useI18n } from "vue-i18n"
+import { useHead } from "@vueuse/head"
 import CCallToAction from "@/widgets/calltoaction/ui/CCallToAction.vue"
 import { CAboutUsCards, CAboutUsStory } from "@/widgets"
 
 const { t } = useI18n()
+
+// SEO Meta Tags
+useHead({
+  title: "About Us - Toolbar AI | Leading AI Toolbar Technology Company",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Learn about Toolbar AI - the innovative team behind the most advanced AI-powered browser toolbar. Discover our mission to revolutionize web browsing with artificial intelligence, smart automation, and intelligent productivity tools. Meet the experts building the future of Google Toolbar alternatives.",
+    },
+    {
+      name: "keywords",
+      content:
+        "about toolbar AI, AI toolbar company, google toolbar alternative company, browser toolbar technology, AI browsing innovation, smart toolbar development, AI productivity company, toolbar AI team, artificial intelligence browser tools, AI automation company, intelligent toolbar creators, AI browser extension developers, toolbar AI mission, AI-powered browsing company, smart web tools company, browser AI innovation, toolbar technology leaders, AI toolbar pioneers, intelligent automation company, AI productivity solutions, browser toolbar experts, AI web tools company, toolbar AI vision, AI browser company, smart toolbar technology",
+    },
+    // Open Graph Tags
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://toolbar-ai.com/about" },
+    {
+      property: "og:title",
+      content: "About Toolbar AI - Leading AI Toolbar Technology",
+    },
+    {
+      property: "og:description",
+      content:
+        "Meet the team revolutionizing web browsing with AI-powered toolbar technology. Learn about our mission and vision for intelligent browsing solutions.",
+    },
+    { property: "og:image", content: "https://toolbar-ai.com/og-image.jpg" },
+    { property: "og:site_name", content: "Toolbar AI" },
+    // Twitter Card Tags
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:site", content: "@toolbarai" },
+    {
+      name: "twitter:title",
+      content: "About Toolbar AI - Leading AI Toolbar Technology",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Discover the innovative team building the future of AI-powered browser toolbars and intelligent web automation.",
+    },
+    { name: "twitter:image", content: "https://toolbar-ai.com/twitter-card.jpg" },
+    // Additional SEO Tags
+    { name: "robots", content: "index, follow" },
+    { name: "author", content: "Toolbar AI Team" },
+  ],
+  link: [{ rel: "canonical", href: "https://toolbar-ai.com/about" }],
+})
 </script>
 
 <template>
